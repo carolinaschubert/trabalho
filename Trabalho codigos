@@ -1,0 +1,44 @@
+A diferença entre as 3 linguagens de programação
+tente fazer um código mínimo em cada uma delas;
+tente executar o seu código.
+
+ Diferenças Principais
+
+ Python: É uma linguagem de programação interpretada e de alto nível, conhecida por sua simplicidade e legibilidade. O código é conciso e não requer declarações explícitas de tipos de variáveis.
+JavaScript: Uma linguagem interpretada, geralmente usada para programação web. É amplamente utilizada tanto no lado do cliente (frontend) quanto no lado do servidor (backend, via Node.js).
+Java: Uma linguagem compilada, orientada a objetos, que é fortemente tipada. Ela requer uma estrutura mais formal do código, como a declaração explícita de classes e métodos. É amplamente utilizada em aplicações empresariais, móveis (Android), e grandes sistemas distribuídos.
+
+O código vai imprimir “Hello, World” na tela em cada uma dessas linguagens:
+
+Python:  
+
+Código:
+python
+print ("Hello, World!")
+
+
+Execução:
+Como é uma linguagem interpretada, é possível executar este código diretamente no interpretador Python. Salve o código em um arquivo com extensão `.py` e execute-o com o comando `python nome_do_arquivo.py`.
+
+JavaScript
+
+Código:
+javascript
+console.log("Hello, World!");
+
+Execução:
+ É normalmente executado em um ambiente de navegador, mas também pode ser executado em um ambiente de servidor como o Node.js. Para executar este código no Node.js, salve-o em um arquivo com extensão `.js` e execute-o com o comando `node nome_do_arquivo.js`.
+
+Java
+
+Código:
+java
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+
+
+Execução:
+Para executar este código, você precisa salvá-lo em um arquivo com extensão `.java` com o mesmo nome da classe (neste caso, `HelloWorld.java`), compilá-lo com o comando `javac HelloWorld.java` e então executá-lo com `java HelloWorld`.
