@@ -27,3 +27,5 @@ def main():
 # Chama a função principal
 if __name__ == "__main__":
     main()
+
+comprovante de execucao: https://github.com/maluescalira/trabalho/blob/main/Capturar.PNG 
