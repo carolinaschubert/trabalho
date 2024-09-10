@@ -1,0 +1,14 @@
+# print_vowels.py
+
+def print_vowels(text):
+    vowels = "aeiouAEIOU"
+    result = [char for char in text if char in vowels]
+    print("Vogais:", ''.join(result))
+
+def main():
+    # Example text
+    text = "Exemplo de frase com algumas vogais."
+    print_vowels(text)
+
+if __name__ == "__main__":
+    main()
