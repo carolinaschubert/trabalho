@@ -1,0 +1,13 @@
+def lista_de_compras():
+    # Solicita ao usuário a lista de itens, separados por vírgula
+    entrada = input("Pão, ovo, leite, farinha:")
+    
+    # Divide a string de entrada em uma lista de itens, removendo espaços extras
+    itens = [item.strip() for item in entrada.split(',')]
+    
+    # Imprime cada item da lista com um número de item
+    for i, item in enumerate(itens, start=1):
+        print(f"Item {i}: {item}")
+
+# Exemplo de uso da função
+lista_de_compras()
