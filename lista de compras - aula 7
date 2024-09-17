@@ -1,6 +1,6 @@
 def lista_de_compras():
     # Solicita ao usuário a lista de itens, separados por vírgula
-    entrada = input("Pão, ovo, leite, farinha:")
+    entrada = input("Digite os itens da lista de compras, separados por vírgula: ")
     
     # Divide a string de entrada em uma lista de itens, removendo espaços extras
     itens = [item.strip() for item in entrada.split(',')]
