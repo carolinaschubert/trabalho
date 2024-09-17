@@ -1,5 +1,5 @@
 def imprimir_informacoes(nome, idade, cidade):
-    print(f"Nome: {Malu} - Idade: {18} - Cidade: {RJ}!", end="\n")
+    print(f"Nome: {nome} - Idade: {idade} - Cidade: {cidade}!", end="\n")
 
 # Exemplo de uso da função
 imprimir_informacoes("Malu", 18, "RJ")
